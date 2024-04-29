@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-select * from raw_data.emp
+select * from raw_data.emp1
