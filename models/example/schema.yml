@@ -19,3 +19,22 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: emp1
+      description: "testing emp"
+      columns:
+          - name: EMP_ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null       
+
+    - name: emp2
+      description: "testing sales"
+      columns:
+          - name: sale_id
+            description: "The primary key  table"
+            tests:
+                - unique
+                - not_null                      
+
